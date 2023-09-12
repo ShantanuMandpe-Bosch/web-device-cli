@@ -41,8 +41,7 @@ function connect() {
     }
     console.log('Requesting Bluetooth Device...');
     navigator.bluetooth.requestDevice({
-        //filters: [{services: []}]
-        optionalServices: [bleNusServiceUUID],
+        filters: [{services: [bleNusServiceUUID]}],
         acceptAllDevices: true
     })
     .then(device => {
