@@ -1,5 +1,6 @@
 'use strict';
 
+// You use services for different devices and characteristics to get different values. 
 const bleNusServiceUUID  = '6e400001-b5a3-f393-e0a9-e50e24dcca9e';
 const bleNusCharRXUUID   = '6e400002-b5a3-f393-e0a9-e50e24dcca9e';
 const bleNusCharTXUUID   = '6e400003-b5a3-f393-e0a9-e50e24dcca9e';
